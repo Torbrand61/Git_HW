@@ -1,0 +1,16 @@
+Bug when acquiring a castle with Count Orlok
+
+Description:
+When attempting to acquire a castle with Count Orlok, the action fails to complete. After selecting the "conquer castle" option, an error message appears, and the castle remains inaccessible.
+
+Steps to reproduce:
+Launch the game and choose Count Orlok as the character.
+Navigate to the location with the castle to be conquered.
+Select the "conquer castle" option for the target castle.
+Wait for the action to complete.
+
+Expected result:
+Count Orlok successfully conquers the castle and gains access to its resources and features.
+
+Actual result:
+After the action is completed, the castle is not acquired by Count Orlok, and an error message appears on the screen (error code: 503).
